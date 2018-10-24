@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Network Status - {{ controller_name }}{% endblock %}
+
+{% block body %}
+            <h2>Network Status</h2><br>
+	<table class="table table-sm table-striped">
+        <thead>
+          <tr>
+          <th scope="col">Service</th>
+          <th scope="col">URL</th>
+          <th scope="col">Status</th>
+         </tr>
+       </thead>
+    </table>
+
+{% endblock %}
